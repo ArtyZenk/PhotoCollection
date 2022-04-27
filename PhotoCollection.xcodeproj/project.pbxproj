@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F348C31228197DDA0063D485 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348C31128197DDA0063D485 /* Model.swift */; };
 		F3CB4F8328191AC700D0C2D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CB4F8228191AC700D0C2D7 /* AppDelegate.swift */; };
 		F3CB4F8528191AC700D0C2D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CB4F8428191AC700D0C2D7 /* SceneDelegate.swift */; };
 		F3CB4F8728191AC700D0C2D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CB4F8628191AC700D0C2D7 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F348C31128197DDA0063D485 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		F3CB4F7F28191AC700D0C2D7 /* PhotoCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3CB4F8228191AC700D0C2D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3CB4F8428191AC700D0C2D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +43,7 @@
 			isa = PBXGroup;
 			children = (
 				F3CB4F8228191AC700D0C2D7 /* AppDelegate.swift */,
+				F3CB4F8428191AC700D0C2D7 /* SceneDelegate.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -65,12 +68,12 @@
 			isa = PBXGroup;
 			children = (
 				F348C31028197D7A0063D485 /* App */,
-				F3CB4F8428191AC700D0C2D7 /* SceneDelegate.swift */,
 				F3CB4F8628191AC700D0C2D7 /* ViewController.swift */,
 				F3CB4F8828191AC700D0C2D7 /* Main.storyboard */,
 				F3CB4F8B28191AC700D0C2D7 /* Assets.xcassets */,
 				F3CB4F8D28191AC700D0C2D7 /* LaunchScreen.storyboard */,
 				F3CB4F9028191AC700D0C2D7 /* Info.plist */,
+				F348C31128197DDA0063D485 /* Model.swift */,
 			);
 			path = PhotoCollection;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 				F3CB4F8728191AC700D0C2D7 /* ViewController.swift in Sources */,
 				F3CB4F8328191AC700D0C2D7 /* AppDelegate.swift in Sources */,
 				F3CB4F8528191AC700D0C2D7 /* SceneDelegate.swift in Sources */,
+				F348C31228197DDA0063D485 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

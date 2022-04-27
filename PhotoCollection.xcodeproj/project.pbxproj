@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		F348C31228197DDA0063D485 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348C31128197DDA0063D485 /* Model.swift */; };
 		F348C31628197FF40063D485 /* FirstTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348C31528197FF40063D485 /* FirstTabViewController.swift */; };
+		F348C31A281980A60063D485 /* SecondTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348C319281980A60063D485 /* SecondTabViewController.swift */; };
+		F348C31C2819815E0063D485 /* ThirdTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348C31B2819815E0063D485 /* ThirdTabViewController.swift */; };
 		F3CB4F8328191AC700D0C2D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CB4F8228191AC700D0C2D7 /* AppDelegate.swift */; };
 		F3CB4F8528191AC700D0C2D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CB4F8428191AC700D0C2D7 /* SceneDelegate.swift */; };
 		F3CB4F8A28191AC700D0C2D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3CB4F8828191AC700D0C2D7 /* Main.storyboard */; };
@@ -19,6 +21,8 @@
 /* Begin PBXFileReference section */
 		F348C31128197DDA0063D485 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		F348C31528197FF40063D485 /* FirstTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTabViewController.swift; sourceTree = "<group>"; };
+		F348C319281980A60063D485 /* SecondTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTabViewController.swift; sourceTree = "<group>"; };
+		F348C31B2819815E0063D485 /* ThirdTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdTabViewController.swift; sourceTree = "<group>"; };
 		F3CB4F7F28191AC700D0C2D7 /* PhotoCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3CB4F8228191AC700D0C2D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3CB4F8428191AC700D0C2D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -73,6 +77,8 @@
 				F348C31028197D7A0063D485 /* App */,
 				F348C31328197E150063D485 /* Model */,
 				F348C31528197FF40063D485 /* FirstTabViewController.swift */,
+				F348C319281980A60063D485 /* SecondTabViewController.swift */,
+				F348C31B2819815E0063D485 /* ThirdTabViewController.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -173,7 +179,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F348C31C2819815E0063D485 /* ThirdTabViewController.swift in Sources */,
 				F3CB4F8328191AC700D0C2D7 /* AppDelegate.swift in Sources */,
+				F348C31A281980A60063D485 /* SecondTabViewController.swift in Sources */,
 				F348C31628197FF40063D485 /* FirstTabViewController.swift in Sources */,
 				F3CB4F8528191AC700D0C2D7 /* SceneDelegate.swift in Sources */,
 				F348C31228197DDA0063D485 /* Model.swift in Sources */,

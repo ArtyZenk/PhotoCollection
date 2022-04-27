@@ -48,6 +48,25 @@
 			path = App;
 			sourceTree = "<group>";
 		};
+		F348C31328197E150063D485 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F348C31128197DDA0063D485 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F348C31428197E590063D485 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F3CB4F8828191AC700D0C2D7 /* Main.storyboard */,
+				F3CB4F8B28191AC700D0C2D7 /* Assets.xcassets */,
+				F3CB4F8D28191AC700D0C2D7 /* LaunchScreen.storyboard */,
+				F3CB4F9028191AC700D0C2D7 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		F3CB4F7628191AC700D0C2D7 = {
 			isa = PBXGroup;
 			children = (
@@ -68,12 +87,9 @@
 			isa = PBXGroup;
 			children = (
 				F348C31028197D7A0063D485 /* App */,
+				F348C31328197E150063D485 /* Model */,
 				F3CB4F8628191AC700D0C2D7 /* ViewController.swift */,
-				F3CB4F8828191AC700D0C2D7 /* Main.storyboard */,
-				F3CB4F8B28191AC700D0C2D7 /* Assets.xcassets */,
-				F3CB4F8D28191AC700D0C2D7 /* LaunchScreen.storyboard */,
-				F3CB4F9028191AC700D0C2D7 /* Info.plist */,
-				F348C31128197DDA0063D485 /* Model.swift */,
+				F348C31428197E590063D485 /* Resources */,
 			);
 			path = PhotoCollection;
 			sourceTree = "<group>";
@@ -301,7 +317,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9DSLGCL4J8;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PhotoCollection/Info.plist;
+				INFOPLIST_FILE = PhotoCollection/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -329,7 +345,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9DSLGCL4J8;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PhotoCollection/Info.plist;
+				INFOPLIST_FILE = PhotoCollection/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

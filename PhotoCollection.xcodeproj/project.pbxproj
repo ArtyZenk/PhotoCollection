@@ -19,6 +19,7 @@
 		F348C3292819A0CA0063D485 /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348C3282819A0CA0063D485 /* SectionHeader.swift */; };
 		F348C32B2819A0FE0063D485 /* SetupSections.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348C32A2819A0FE0063D485 /* SetupSections.swift */; };
 		F348C32D2819A1480063D485 /* FourthTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348C32C2819A1480063D485 /* FourthTabViewController.swift */; };
+		F348C335281A81C10063D485 /* Metric.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348C334281A81C10063D485 /* Metric.swift */; };
 		F3CB4F8328191AC700D0C2D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CB4F8228191AC700D0C2D7 /* AppDelegate.swift */; };
 		F3CB4F8528191AC700D0C2D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CB4F8428191AC700D0C2D7 /* SceneDelegate.swift */; };
 		F3CB4F8C28191AC700D0C2D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3CB4F8B28191AC700D0C2D7 /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 		F348C3282819A0CA0063D485 /* SectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
 		F348C32A2819A0FE0063D485 /* SetupSections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupSections.swift; sourceTree = "<group>"; };
 		F348C32C2819A1480063D485 /* FourthTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthTabViewController.swift; sourceTree = "<group>"; };
+		F348C334281A81C10063D485 /* Metric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metric.swift; sourceTree = "<group>"; };
 		F3CB4F7F28191AC700D0C2D7 /* PhotoCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3CB4F8228191AC700D0C2D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3CB4F8428191AC700D0C2D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -97,19 +99,68 @@
 		F348C32528199F7D0063D485 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				F348C32F281A81350063D485 /* FirstTab */,
+				F348C330281A81400063D485 /* SecondTab */,
+				F348C331281A814E0063D485 /* ThirdTab */,
+				F348C332281A81610063D485 /* FourthTab */,
+				F348C333281A81880063D485 /* Section */,
+				F348C32E281A80F70063D485 /* Extension */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		F348C32E281A80F70063D485 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F348C32A2819A0FE0063D485 /* SetupSections.swift */,
+				F348C334281A81C10063D485 /* Metric.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		F348C32F281A81350063D485 /* FirstTab */ = {
+			isa = PBXGroup;
+			children = (
 				F348C31528197FF40063D485 /* FirstTabViewController.swift */,
+			);
+			path = FirstTab;
+			sourceTree = "<group>";
+		};
+		F348C330281A81400063D485 /* SecondTab */ = {
+			isa = PBXGroup;
+			children = (
 				F348C319281980A60063D485 /* SecondTabViewController.swift */,
+			);
+			path = SecondTab;
+			sourceTree = "<group>";
+		};
+		F348C331281A814E0063D485 /* ThirdTab */ = {
+			isa = PBXGroup;
+			children = (
 				F348C31B2819815E0063D485 /* ThirdTabViewController.swift */,
 				F348C31D28199CCD0063D485 /* ThirdTabViewControllerDataSource.swift */,
 				F348C31F28199D6A0063D485 /* ThirdTabViewControllerDelegat.swift */,
+			);
+			path = ThirdTab;
+			sourceTree = "<group>";
+		};
+		F348C332281A81610063D485 /* FourthTab */ = {
+			isa = PBXGroup;
+			children = (
+				F348C32C2819A1480063D485 /* FourthTabViewController.swift */,
+			);
+			path = FourthTab;
+			sourceTree = "<group>";
+		};
+		F348C333281A81880063D485 /* Section */ = {
+			isa = PBXGroup;
+			children = (
 				F348C32128199DCF0063D485 /* HorizontalSectionCell.swift */,
 				F348C32328199E690063D485 /* VerticalSectionCell.swift */,
 				F348C3262819A0870063D485 /* FirstSectionHeader.swift */,
 				F348C3282819A0CA0063D485 /* SectionHeader.swift */,
-				F348C32A2819A0FE0063D485 /* SetupSections.swift */,
-				F348C32C2819A1480063D485 /* FourthTabViewController.swift */,
 			);
-			path = Scenes;
+			path = Section;
 			sourceTree = "<group>";
 		};
 		F3CB4F7628191AC700D0C2D7 = {
@@ -219,6 +270,7 @@
 				F348C31228197DDA0063D485 /* Model.swift in Sources */,
 				F348C3292819A0CA0063D485 /* SectionHeader.swift in Sources */,
 				F348C32228199DCF0063D485 /* HorizontalSectionCell.swift in Sources */,
+				F348C335281A81C10063D485 /* Metric.swift in Sources */,
 				F348C31E28199CCD0063D485 /* ThirdTabViewControllerDataSource.swift in Sources */,
 				F348C32428199E690063D485 /* VerticalSectionCell.swift in Sources */,
 			);

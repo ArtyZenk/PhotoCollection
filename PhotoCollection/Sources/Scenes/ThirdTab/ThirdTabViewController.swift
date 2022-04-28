@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ThirdTabViewController: UIViewController {
+final class ThirdTabViewController: UIViewController {
     
     let data = Section.getData()
     var collectionView: UICollectionView!
@@ -29,11 +29,11 @@ class ThirdTabViewController: UIViewController {
         setupCollectionView()
     }
     
-    @objc func leftButtonAction(sender: UIBarButtonItem) {
+    @objc private func leftButtonAction(sender: UIBarButtonItem) {
         print("add button pressed")
     }
     
-    func setupCollectionView() {
+    private func setupCollectionView() {
         collectionView = UICollectionView(frame: view.bounds, collectionViewLayout: setupCompositionLayout())
         collectionView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         
@@ -44,11 +44,13 @@ class ThirdTabViewController: UIViewController {
         
         collectionView.delegate = self
         collectionView.dataSource = self
+        
         collectionView.backgroundColor = UIColor.systemGray6
+        
         view.addSubview(collectionView)
     }
     
-    func setupCompositionLayout() -> UICollectionViewLayout {
+    private func setupCompositionLayout() -> UICollectionViewLayout {
         let layout = UICollectionViewCompositionalLayout  { (sectionIndex, layoutEnvironment) -> NSCollectionLayoutSection? in
             let section = self.data[sectionIndex]
             switch section.type {

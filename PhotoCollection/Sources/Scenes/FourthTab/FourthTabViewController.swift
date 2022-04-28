@@ -7,7 +7,7 @@
 
 import UIKit
 
-class FourthTabViewController: UIViewController {
+final class FourthTabViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Поиск"

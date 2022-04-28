@@ -4,8 +4,6 @@
 //
 //  Created by Artyom Guzenko on 27.04.2022.
 //
-
-import Foundation
 import UIKit
 
 extension ThirdTabViewController: UICollectionViewDataSource {
@@ -52,7 +50,7 @@ extension ThirdTabViewController: UICollectionViewDataSource {
         case 0:
             let header: FirstSectionHeader = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: FirstSectionHeader.reuseId, for: indexPath) as! FirstSectionHeader
             header.title.text = data[indexPath.section].title
-            header.button.addTarget(self, action: #selector(BtnPressed), for: .touchUpInside)
+            header.button.addTarget(self, action: #selector(allButtonPressed), for: .touchUpInside)
           
             return header
         default:
@@ -62,7 +60,7 @@ extension ThirdTabViewController: UICollectionViewDataSource {
         }
     }
     
-    @objc func BtnPressed(sender: UIButton) {
+    @objc func allButtonPressed(sender: UIButton) {
         print("Нажата кнопка \"Все\"")
     }
 }

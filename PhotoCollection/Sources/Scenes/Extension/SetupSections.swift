@@ -89,8 +89,7 @@ extension ThirdTabViewController {
     }
 }
 
-// MARK: - Constants
-
+// MARK: - Metric
 enum VerticalSectionConstants {
     static let itemSizeWidth = 1.0
     static let itemSizeHeight = 48.0

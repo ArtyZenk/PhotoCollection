@@ -4,6 +4,7 @@
 //
 //  Created by Artyom Guzenko on 27.04.2022.
 //
+import UIKit
 
 class SecondTabViewController: UIViewController {
     override func viewDidLoad() {

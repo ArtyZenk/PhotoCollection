@@ -30,7 +30,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         let fourthTabViewController = FourthTabViewController()
         let fourthNavigationController = UINavigationController(rootViewController: fourthTabViewController)
-        fourthTabViewController.tabBarItem = UITabBarItem(title: "Поиск", image: UIImage(named: "custom.magnifyin"), tag: 3)
+        fourthTabViewController.tabBarItem = UITabBarItem(title: "Поиск", image: UIImage(named: "custom.magnifying"), tag: 3)
         tabBarController.setViewControllers([firstNavigationController,
                                              secondNavigationController,
                                              thirdNavigationController,
@@ -42,4 +42,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         return true
     }
+    
 }
